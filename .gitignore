@@ -1,0 +1,171 @@
+*.log
+*.tmp
+*.temp
+*.bak
+*.pyc
+__pycache__/
+*.pyc
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ git config --global user.name "Mozhaiev Kristina"
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ git config --global user.email "kristinamozaeva776@gmail.com"
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ git config --global core.editor "code --wait"
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh-keygen -t ed25519 -C "kristinamozaeva776@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/krist/.ssh/id_ed25519):
+Created directory '/c/Users/krist/.ssh'.
+Enter passphrase for "/c/Users/krist/.ssh/id_ed25519" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/krist/.ssh/id_ed25519
+Your public key has been saved in /c/Users/krist/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:j+lFij5Abu6UnnDkxMgAdc+2alQ3IQdakLwB72/EwhM kristinamozaeva776@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|..oooo+.o        |
+|.  o+= o .       |
+|.   Eo= o        |
+| o =o= o .       |
+|  ooX + S .      |
+|   =+B . *       |
+|  .oB.+ + o      |
+|   *.+.. .       |
+|   .+ ...        |
++----[SHA256]-----+
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 866
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh-add ~/.ssh/id_ed25519
+Identity added: /c/Users/krist/.ssh/id_ed25519 (kristinamozaeva776@gmail.com)
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ clip < ~/.ssh/id_ed25519.pub
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ clip < ~/.ssh/id_ed25519.pub
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi krikatletka! You've successfully authenticated, but GitHub does not provide shell access.
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh -T git@github.com
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ git config --global user.name "Mozhaiev Kristina"
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ git config --global user.email "kristinamozaeva776@gmail.com"
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ git config --global core.editor "code --wait"
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh-keygen -t ed25519 -C "kristinamozaeva776@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/krist/.ssh/id_ed25519):
+Created directory '/c/Users/krist/.ssh'.
+Enter passphrase for "/c/Users/krist/.ssh/id_ed25519" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/krist/.ssh/id_ed25519
+Your public key has been saved in /c/Users/krist/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:j+lFij5Abu6UnnDkxMgAdc+2alQ3IQdakLwB72/EwhM kristinamozaeva776@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|..oooo+.o        |
+|.  o+= o .       |
+|.   Eo= o        |
+| o =o= o .       |
+|  ooX + S .      |
+|   =+B . *       |
+|  .oB.+ + o      |
+|   *.+.. .       |
+|   .+ ...        |
++----[SHA256]-----+
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 866
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh-add ~/.ssh/id_ed25519
+Identity added: /c/Users/krist/.ssh/id_ed25519 (kristinamozaeva776@gmail.com)
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ clip < ~/.ssh/id_ed25519.pub
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ clip < ~/.ssh/id_ed25519.pub
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi krikatletka! You've successfully authenticated, but GitHub does not provide shell access.
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ ssh -T git@github.com
+Hi krikatletka! You've successfully authenticated, but GitHub does not provide shell access.
+
+krist@DESKTOP-GKJ18S9 MINGW64 ~
+$ cd F:\kristina
+
+krist@DESKTOP-GKJ18S9 MINGW64 /f/kristina
+$ mkdir Projects && cd Projects
+
+krist@DESKTOP-GKJ18S9 MINGW64 /f/kristina/Projects
+$ git clone git@github.com:krikatletka/University.git
+Cloning into 'University'...
+warning: You appear to have cloned an empty repository.
+
+krist@DESKTOP-GKJ18S9 MINGW64 /f/kristina/Projects
+$ cd University
+
+krist@DESKTOP-GKJ18S9 MINGW64 /f/kristina/Projects/University (main)
+$ cat > .gitignore << 'EOF'
+> *.log
+> *.tmp
+> *.temp
+> *.bak
+> *.pyc
+> __pycache__/
+> *.pyc
+>
+
+node_modules/
+npm-debug.log*
+bin/
+
+> obj/
+*.user
+*.suo
+*.pdb
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
